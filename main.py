@@ -4,8 +4,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 
 os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
-st.set_page_config(page_title="Whats For Dinner", page_icon="🥘")
-st.title('Whats For Dinner 🥘 || Recipe Recommender ')
+st.set_page_config(page_title="Whats For Dinner", page_icon="🥪")
+st.title('Whats For Dinner 🥪 || Recipe Recommender ')
 
 
 with st.sidebar:
