@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-api_key = st.secrets["GOOGLE_API_KEY"]
+
 
 
 st.set_page_config(page_title="Whats For Dinner", page_icon="🍳")
@@ -24,7 +24,7 @@ def generate_recommendations(input_text):
     try:
         llm = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
-            google_api_key = api_key
+            google_api_key=st.secrets["GOOGLE_API_KEY"]
             temperature=0.7
         )
         prompt = f"Given the ingredients: {input_text}, suggest five easy-to-cook step-by-step recipes."
