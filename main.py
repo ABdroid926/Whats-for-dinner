@@ -2,7 +2,7 @@ import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 
-GOOGLE_API_KEY = "AIzaSyBZj_TOdc6bwqJLlv0yuXhY7FsLuXHWl9M"
+
 
 st.set_page_config(page_title="Whats For Dinner", page_icon="🍳")
 st.title('Whats For Dinner 🍳 || Recipe Reccommender ')
