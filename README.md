@@ -1,1 +1,1 @@
-A prototype for a project. 
+An AI based project that suggests receipes based on the ingredients you input  
